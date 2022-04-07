@@ -25,4 +25,8 @@ class SizedBoxManager {
   static const double sb16 = 16.0;
   static const double sb18 = 18.0;
   static const double sb20 = 20.0;
+  static const double sb40 = 40.0;
+  static const double sb60 = 60.0;
+  static const double sb80 = 80.0;
+  static const double sb100 = 100.0;
 }
