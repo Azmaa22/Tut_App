@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mvvm/presentation/forget_password_screen/forget_password_screen.dart';
 import 'package:flutter_mvvm/presentation/main_screen/main_screen.dart';
-import 'package:flutter_mvvm/presentation/on_boarding_screen/on_boarding_screen.dart';
+import 'package:flutter_mvvm/presentation/on_boarding_screen/view/on_boarding_view.dart';
 import 'package:flutter_mvvm/presentation/sign_in_screen/sign_in_screen.dart';
 import 'package:flutter_mvvm/presentation/sign_up_screen/sign_up_screen.dart';
 import 'package:flutter_mvvm/presentation/splash_screen/splash_screen.dart';
@@ -22,7 +22,7 @@ class RouteGenerator {
         );
       case Routes.onBoardingRoute:
         return MaterialPageRoute(
-          builder: (context) => const OnBoardingScreen(),
+          builder: (context) => const OnBoardingView(),
         );
       case Routes.registerRoute:
         return MaterialPageRoute(

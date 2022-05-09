@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mvvm/utilities/constants/image_manager.dart';
-import 'package:flutter_mvvm/utilities/constants/on_boarding_data.dart';
+import 'package:flutter_mvvm/domain/on_boarding_model/on_boarding_slider_model.dart';
 import 'package:flutter_mvvm/utilities/constants/sizing_manager.dart';
 import 'package:flutter_svg/svg.dart';
 
